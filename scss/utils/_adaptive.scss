@@ -1,0 +1,254 @@
+@media (max-width: 1024px){
+   h1{
+      font-size: 30px;
+      line-height: 39px;
+   }
+
+   p{
+      font-size: 13px;
+      line-height: 23px;
+   }
+
+   h3{
+      font-size: 20px;
+      line-height: 25px;
+   }
+
+   h2{
+      font-size: 25px;
+      line-height: 30px;
+   }
+
+   h4{
+      font-size: 20px;
+      line-height: 30px;
+   }
+
+   .header{
+      &__content{
+         gap: 0px;
+      }
+   }
+
+   .hero-page {
+      height: 120vh;
+   }
+
+   .post__content {
+      margin: 130px 20px;
+   }
+
+   .about__content {
+      justify-content: space-around;
+   }
+
+   .special-post__content {
+      padding: 20px;
+      gap: 9px;
+   }
+
+   .special-post__content h2 {
+      font-size: 25px;
+      line-height: 38px;
+   }
+
+   .authors__card {
+      margin: 0px 20px;
+   }
+
+   .company__content-logo {
+      gap: 25px;
+   }
+
+   .comments__content-title {
+      width: 30%;
+   }
+
+   .comments__content-item {
+      width: 35%;
+   }
+
+   .item__info {
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+   }
+
+   .footer__nav{
+      gap: 0px;
+   }
+
+   .footer__form {
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+}
+
+@media (max-width: 768px){
+   .hero-page__content{
+      padding: 100px 0px 0px 80px;
+   }
+
+   .post__all-text {
+      width: 90%;
+   }
+
+   .about{
+      margin: 0px 20px;
+      &__content{
+         padding: 40px 0px;
+      }
+   }
+
+   .category__content-item {
+      width: 20%;
+      padding: 15px;
+   }
+
+   .special-post{
+      padding-left: 35px;
+      &__content {
+         padding: 10px;
+         gap: 0px;
+         width: 45%;
+         right: 12%;
+      }
+   }
+
+   .special-post img {
+      width: 66%;
+   }
+
+   .authors__card {
+      flex-wrap: wrap;
+   }
+
+   .company__content {
+      flex-wrap: wrap;
+      gap: 10px;
+      &-logo{
+         flex-wrap: wrap;
+         justify-content: center;
+      }
+   }
+
+   .comments {
+      margin: 0px 20px;
+   }
+}
+
+@media (max-width: 428px){
+   button{
+      padding: 10px 40px;
+   }
+   .header{
+      &__content {
+         flex-direction: column;
+         gap: 15px;
+         &-item{
+            flex-direction: column;
+            gap: 15px;
+         }
+      }
+
+      &__btn{
+         padding: 10px 40px;
+      }
+   }
+
+   .hero-page{
+      height: 85vh;
+      &__content {
+         width: 100%;
+         padding: 30px;
+         align-items: flex-start;
+      }  
+   }
+
+   .post{
+      &__content{
+         flex-wrap: wrap;
+         &-text{
+            width: 80vw;
+         }
+      }
+   }
+
+   .about{
+      &__content{
+         flex-wrap: wrap;
+         &-item{
+            width: 80%;
+         }
+      }
+   }
+
+   .category{
+      &__content{
+         flex-wrap: wrap;
+         &-item{
+            width: 50%;
+         }
+      }
+   }
+
+   .special-post{
+      position: static;
+      padding: 0px;
+      &__content{
+         position: static;
+         width: 90%;
+         gap: 10px;
+      }
+   }
+
+   .special-post img {
+      width: 100%;
+   }
+
+   .comments{
+      &__content{
+         flex-direction: column;
+         align-items: center;
+         padding: 40px 0px;
+
+         &-title, &-line, &-item{
+            width: 80%;
+         }
+      }
+   }
+
+   .join-team__content{
+      padding: 130px 30px;
+   }
+
+   .footer{
+      &__nav{
+         flex-direction: column;
+         gap: 10px;
+
+         &-menu{
+            flex-wrap: wrap;
+            justify-content: center;
+         }
+      }
+
+      &__form{
+         width: 80%;
+         padding: 40px;
+         margin-left: 45px;
+         &-item{
+            flex-wrap: wrap;
+         }
+      }
+   }
+}
+
+@media (max-width: 375px){
+   .footer__form {
+      width: 90%;
+      margin-left: 20px;
+   }
+}
+
+

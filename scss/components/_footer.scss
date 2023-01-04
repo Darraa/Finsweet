@@ -1,0 +1,60 @@
+.footer{
+   background: #232536;
+   padding: 25px 0px;
+   color: #ffff;
+   display: flex;
+   flex-direction: column;
+   gap: 50px;
+   &__nav{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 50%;
+
+
+      &-item{
+         display: flex;
+         align-items: center;
+         gap: 30px;
+      }
+
+      &-menu{
+         display: flex;
+         gap: 25px;
+      }
+
+      &-contact{
+         display: flex;
+         flex-direction: column;
+         line-height: 28px;
+         color: #6d6e76;
+      }
+      &-contact span{
+         text-transform: none;
+      }
+   }
+
+   &__form{
+      margin: 0px 80px;
+      background: #3f4257;
+      padding: 80px 30px;
+      display: flex;
+      justify-content: space-around;
+      gap: 60px;
+   }
+}
+
+.form{
+   display: flex;
+   gap: 20px;
+   height: fit-content;
+   &__inpt{
+      padding: 15px 100px 15px 20px;
+      border: 1px solid rgba(76, 76, 76, 1);
+      color: rgba(109, 110, 118, 1);
+      font-family: 'Inter';
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+   }
+}

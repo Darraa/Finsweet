@@ -1,0 +1,20 @@
+.about{
+   margin: 0px 80px;
+   &__img{
+      display: flex;
+      justify-content: flex-end;
+   }
+   &__content{
+      background: #f4f0f8;
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+      padding: 95px 80px;
+      &-title{
+         padding-bottom: 25px;
+      }
+      &-item{
+         width: 30%;
+      }
+   }
+}

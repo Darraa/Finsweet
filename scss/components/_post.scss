@@ -1,0 +1,50 @@
+.post {
+   &__content {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin: 130px 0px;
+      &-featured{
+         display: flex;
+         flex-direction: column;
+         gap: 30px;
+      }
+      &-text{
+         border: 1px solid rgba(122, 119, 119, 0.5);
+         width: 40vw;
+         padding: 30px;
+      }
+
+
+   }
+
+   &__all{
+      &-title{
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         padding-bottom: 30px;
+      }
+      &-item{
+         padding: 30px 0px 25px 30px;
+      }
+      &-text{
+         width: 50%;
+      }
+      &-item:hover{
+         background: #fbf6ea;
+      }
+   }
+}
+
+.post button{
+   margin-top: 30px;
+}
+
+.post img{
+   width: 100%;
+}
+
+.post span{
+   text-transform: none;
+}

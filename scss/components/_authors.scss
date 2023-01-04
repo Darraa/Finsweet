@@ -1,0 +1,35 @@
+.authors{
+   &__title{
+      text-align: center;
+      padding-bottom: 50px;
+   }
+
+   &__card{
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      &-item{
+         background: #f4f4f4;
+      }
+      &-item:hover{
+         background: #fbf6ea;
+      }
+   }
+}
+
+.card__item{
+   padding: 40px;
+   text-align: center;
+
+   &-social{
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      padding-top: 20px;
+   }
+}
+
+.authors span{
+   text-transform: none;
+   color: #6d6e76;
+}

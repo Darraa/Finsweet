@@ -1,0 +1,40 @@
+.header{
+   background: #232536;
+   padding: 25px 0px;
+
+   &__content{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 50%;
+      &-item{
+         display: flex;
+         align-items: center;
+         gap: 30px;
+      }
+   }
+      &__nav{
+         &-menu{
+            display: flex;
+            gap: 25px;
+            color: #ffff;
+         }
+      }
+
+      &__btn{
+         display: flex;
+         background-color: #ffff;
+         padding: 15px 50px;
+         cursor: pointer;
+      }
+}
+
+// .header {
+// }
+// .header
+// .header__nav {
+// }
+// .header__nav-menu {
+// }
+// .header__btn {
+// }
